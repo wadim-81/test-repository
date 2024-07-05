@@ -21,6 +21,6 @@ public class Main {
 
         Optional<String>secondName =
                 Optional.empty();
-
+        System.out.println(secondName.orElse("Default"));
     }
 }
