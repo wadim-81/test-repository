@@ -17,6 +17,6 @@ public class Main {
 
         Optional <String> name =
                 Optional.of("John");
-        
+        System.out.println(name.orElse("Default"));
     }
 }
